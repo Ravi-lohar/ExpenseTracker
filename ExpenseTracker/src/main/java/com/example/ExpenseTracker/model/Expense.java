@@ -24,6 +24,7 @@ public class Expense {
     @NotBlank(message = "Title is required")
     private String title;
 
+    @NotBlank
     private String description;
 
     @NotNull(message = "Price is required")
